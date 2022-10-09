@@ -1,16 +1,8 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Задача-1: Ввести ваше имя и возраст в отдельные переменные,
+# вычесть из возраста 18 и вывести на экран в следующем виде:
+# "Василий на 2 года/лет больше 18"
+# по желанию сделать адаптивный вывод, то есть "на 5 лет больше", "на 3 года меньше" и.т.д.
+name = input("Введите ваше имя:")
+age = int(input("Введите ваш возраст:"))
+a = age - 18
+print(name,"тебе больше на", a, "от 18 лет!")
